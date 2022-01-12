@@ -47,7 +47,6 @@ function addReseauxSociaux(reseauSocial, divNousTrouver) {
 
 function presentAutreContact() {
     const nosContacts = document.getElementById('nos-contacts')
-    console.log(nosContacts)
 
     if (contact['nombreAutreContact'] != 0) {
         const titrePartie = document.createElement('h3')
