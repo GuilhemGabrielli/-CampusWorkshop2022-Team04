@@ -21,7 +21,7 @@ function presentSolutions()  {
 
     const title1 = document.createElement('h1')
     title1.innerText = "Nos Solutions"
-    main.append(title1)
+    // main.append(title1)
 
 
 }
