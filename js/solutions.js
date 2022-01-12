@@ -17,6 +17,7 @@ requestSolutions.onload = function() {
 
 function presentSolutions()  {
     const main = document.getElementsByName('main')[0]
+    console.log(main)
 
     const title1 = document.createElement('h1')
     title1.innerText = "Nos Solutions"
