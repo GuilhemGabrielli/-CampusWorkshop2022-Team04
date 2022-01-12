@@ -4,7 +4,7 @@
         {
             "nomReseauSocial" : "Facebook",
             "lienURLReseauSocial" : "",
-            "LogoReseauSocial" : ""
+            "LogoReseauSocial" : "/img/logoFacebook"
         },
         {
             "nomReseauSocial" : "LinkedIn",
@@ -13,8 +13,8 @@
         },
         {
             "nomReseauSocial" : "Instagram",
-            "lienURLReseauSocial" : "https://www.lespetitsbilingues.com/wp-content/uploads/2021/02/logo-rond-insta-300x300.png",
-            "LogoReseauSocial" : ""
+            "lienURLReseauSocial" : "",
+            "LogoReseauSocial" : "/img/logoInstagram"
         }
     ],
     "nombreAutreContact" : 0,
