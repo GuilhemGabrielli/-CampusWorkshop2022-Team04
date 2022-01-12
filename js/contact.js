@@ -1,3 +1,6 @@
+document.getElementById('page-actuel').disable = true
+
+
 var requestContactURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/json/contact.json';
 
 var requestContact = new XMLHttpRequest();
