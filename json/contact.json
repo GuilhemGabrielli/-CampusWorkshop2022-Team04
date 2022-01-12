@@ -19,9 +19,9 @@
     ],
     "nombreAutreContact" : 0,
     "autreContact" : {
-        "numeroTelephone" : "",
-        "adresseMail" : "",
-        "adressePostal" : ""
+        "numeroTelephone" : "06.12.34.56.78",
+        "adresseMail" : "lorem.ipsum@dolor.sit",
+        "adressePostal" : "Lorem ipsum dolor sit amet, consectetur adipiscing."
     }
 }
 
