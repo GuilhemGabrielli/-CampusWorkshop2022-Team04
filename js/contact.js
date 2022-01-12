@@ -19,7 +19,7 @@ function presentReseauSociaux() {
 
     if (contact['nombreReseauSociaux'] != 0) {
         titrePartie = document.createElement('h3')
-        titrePartie.innerText = "Où nous trouver"
+        titrePartie.innerText = "Où nous trouver ?"
         console.log(titrePartie)
         nousTrouver.prepend(titrePartie)
     }
