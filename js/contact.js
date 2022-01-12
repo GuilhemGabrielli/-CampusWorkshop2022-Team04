@@ -22,11 +22,28 @@ function presentReseauxSociaux() {
         titrePartie.innerText = "Où nous trouver ?"
         console.log(titrePartie)
         nousTrouver.prepend(titrePartie)
+
+        for (let i=0; i < contact['reseauxSociaux'].length; i++) {
+            addReseauxSociaux(contact['reseauxSociaux'][i], nousTrouver)
+        }
     }
 
     console.log('test 2')
 }
 
-function addReseauxSociaux() {
-    
+function addReseauxSociaux(reseauSocial, divNousTrouver) {
+    console.log(reseauSocial)
+    if (reseauSocial['lienURLReseauSocial'] != "") {
+        const aLien = document.createElement('a')
+        aLien.href = reseauSocial['lienURLReseauSocial']
+
+        const imgReseauSocial = document.createElement('img')
+        imgReseauSocial.src = reseauSocial["/img/logoFacebook"]
+        imgReseauSocial.alt = reseauSocial["nomReseauSocial"]
+        imgReseauSocial.className= "icon"
+
+        aLien.prepend(imgReseauSocial)
+        divNousTrouver.append(aLien)
+    }
+
 }
