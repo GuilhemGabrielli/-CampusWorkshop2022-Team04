@@ -11,14 +11,18 @@ requestContact.send();
 requestContact.onload = function() {
     contact = requestContact.response;
     console.log(contact)
-    presentReseauxSociaux()
+    presentReseauSociaux()
 }
 
-function presentReseauxSociaux() {
+function presentReseauSociaux() {
     const nousTrouver = document.getElementById('NousTrouver')
-    console.log(contact['nombreReseauSociaux'])
 
-    if (contact['nombreReseauSociaux'] == 0) {
-        console.log('0')
+    if (contact['nombreReseauSociaux'] != 0) {
+        titrePartie = document.createElement('h3')
+        titrePartie.innerText = "Où nous trouver"
+        console.log(titrePartie)
+        nousTrouver.prepend(titrePartie)
     }
+
+    console.log('test 2')
 }
