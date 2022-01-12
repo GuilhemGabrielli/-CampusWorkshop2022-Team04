@@ -18,7 +18,7 @@ function presentReseauxSociaux() {
     const nousTrouver = document.getElementById('NousTrouver')
 
     if (contact['nombreReseauxSociaux'] != 0) {
-        titrePartie = document.createElement('h3')
+        const titrePartie = document.createElement('h3')
         titrePartie.innerText = "Où nous trouver ?"
         nousTrouver.prepend(titrePartie)
 
@@ -48,8 +48,18 @@ function presentAutreContact() {
     const nosContacts = document.getElementById('nos-contacts')
 
     if (contact['nombreAutreContact'] != 0) {
-        titrePartie = document.createElement('h3')
+        const titrePartie = document.createElement('h3')
         titrePartie.innerText = "Nos contacts"
         nosContacts.prepend(titrePartie)
+
+        const ulContact = document.createElement('ul')
+        for (let i=0; i < contact['autreContact'].length; i++) {
+            addAutreContact(contact['autreContact'][i], ulContact)
+        }
+
     }
+}
+
+function addAutreContact(autreContact, ulNosContact) {
+    
 }
