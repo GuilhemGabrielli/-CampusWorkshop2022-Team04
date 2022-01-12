@@ -56,10 +56,31 @@ function presentAutreContact() {
         for (let i=0; i < contact['autreContact'].length; i++) {
             addAutreContact(contact['autreContact'][i], ulContact)
         }
-
+        nosContacts.append(ulContact)
     }
 }
 
 function addAutreContact(autreContact, ulNosContact) {
-    
+    const liContact = document.createElement('li')
+    liContact.className = "text-center mt-3"
+
+    switch (Object.keys(autreContact)[0]) {
+        case "numeroTelephone" :
+            const aTelephone = document.createElement('a')
+            aTelephone.href = "tel:" + autreContact["numeroTelephone"]
+            aTelephone.innerText = autreContact["numeroTelephone"]
+            liContact.append(aTelephone)
+            break;
+        case "adresseMail" :
+            const aMail = document.createElement('a')
+            aMail.href = "mailto:" + autreContact["adresseMail"]    
+            aMail.innerText = autreContact["adresseMail"]
+            liContact.append(aMail)
+            break;
+        default :
+            liContact.innerText = autreContact["adressePostal"]
+            
+    }
+
+    ulNosContact.append(liContact)
 }
