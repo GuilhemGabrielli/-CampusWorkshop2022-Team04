@@ -12,6 +12,7 @@ requestContact.onload = function() {
     contact = requestContact.response;
     console.log(contact)
     presentReseauxSociaux()
+    presentAutreContact()
 }
 
 function presentReseauxSociaux() {
