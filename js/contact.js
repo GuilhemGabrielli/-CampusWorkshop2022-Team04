@@ -20,19 +20,15 @@ function presentReseauxSociaux() {
     if (contact['nombreReseauxSociaux'] != 0) {
         titrePartie = document.createElement('h3')
         titrePartie.innerText = "Où nous trouver ?"
-        console.log(titrePartie)
         nousTrouver.prepend(titrePartie)
 
         for (let i=0; i < contact['reseauxSociaux'].length; i++) {
             addReseauxSociaux(contact['reseauxSociaux'][i], nousTrouver)
         }
     }
-
-    console.log('test 2')
 }
 
 function addReseauxSociaux(reseauSocial, divNousTrouver) {
-    console.log(reseauSocial)
     if (reseauSocial['lienURLReseauSocial'] != "") {
         const aLien = document.createElement('a')
         aLien.href = reseauSocial['lienURLReseauSocial']
@@ -45,5 +41,4 @@ function addReseauxSociaux(reseauSocial, divNousTrouver) {
         aLien.prepend(imgReseauSocial)
         divNousTrouver.append(aLien)
     }
-
 }
