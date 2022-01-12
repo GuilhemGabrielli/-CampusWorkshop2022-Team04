@@ -16,7 +16,7 @@ requestSolutions.onload = function() {
 
 
 function presentSolutions()  {
-    const main = document.getElementsByName('main')
+    const main = document.getElementsById('main')
     console.log(main)
 
     const title1 = document.createElement('h1')
