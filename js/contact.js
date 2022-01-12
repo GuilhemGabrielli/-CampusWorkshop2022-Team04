@@ -38,7 +38,7 @@ function addReseauxSociaux(reseauSocial, divNousTrouver) {
         aLien.href = reseauSocial['lienURLReseauSocial']
 
         const imgReseauSocial = document.createElement('img')
-        imgReseauSocial.src = reseauSocial["/img/logoFacebook"]
+        imgReseauSocial.src = reseauSocial["LogoReseauSocial"]
         imgReseauSocial.alt = reseauSocial["nomReseauSocial"]
         imgReseauSocial.className= "icon"
 
