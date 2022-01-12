@@ -18,10 +18,10 @@
         }
     ],
     "nombreAutreContact" : 0,
-    "autreContact" : {
-        "numeroTelephone" : "06.12.34.56.78",
-        "adresseMail" : "lorem.ipsum@dolor.sit",
-        "adressePostal" : "Lorem ipsum dolor sit amet, consectetur adipiscing."
-    }
+    "autreContact" : [
+        {"numeroTelephone" : "06.12.34.56.78"},
+        {"adresseMail" : "lorem.ipsum@dolor.sit"},
+        {"adressePostal" : "Lorem ipsum dolor sit amet, consectetur adipiscing."}
+    ]
 }
 
