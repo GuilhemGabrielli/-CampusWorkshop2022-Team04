@@ -1,9 +1,9 @@
 {
-    "nombreReseauSociaux" : 0,
+    "nombreReseauSociaux" : 2,
     "reseauSociaux" : [
         {
             "nomReseauSocial" : "Facebook",
-            "lienURLReseauSocial" : "http://assets.stickpng.com/thumbs/58e91965eb97430e819064f5.png",
+            "lienURLReseauSocial" : "",
             "LogoReseauSocial" : ""
         },
         {
