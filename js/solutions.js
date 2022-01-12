@@ -1,4 +1,4 @@
-var requestSolutionsURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/solutions.json';
+var requestSolutionsURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/json/solutions.json';
 
 var requestSolutions = new XMLHttpRequest();
 var solutions = []

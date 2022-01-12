@@ -1,4 +1,4 @@
-var requestPartenairesURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/partenaires.json';
+var requestPartenairesURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/json/partenaires.json';
 
 var requestPartenaires = new XMLHttpRequest();
 var partenaires = []
