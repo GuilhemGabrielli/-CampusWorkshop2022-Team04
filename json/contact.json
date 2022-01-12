@@ -9,7 +9,7 @@
         {
             "nomReseauSocial" : "LinkedIn",
             "lienURLReseauSocial" : "https://www.linkedin.com/",
-            "LogoReseauSocial" : "https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/img/logoLinkedIn.png"
+            "LogoReseauSocial" : "img/logoLinkedIn"
         },
         {
             "nomReseauSocial" : "Instagram",
