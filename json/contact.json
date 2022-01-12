@@ -4,17 +4,17 @@
         {
             "nomReseauSocial" : "Facebook",
             "lienURLReseauSocial" : "https://fr-fr.facebook.com/",
-            "LogoReseauSocial" : "img/logoFacebook"
+            "LogoReseauSocial" : "https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/img/logoFacebook.png"
         },
         {
             "nomReseauSocial" : "LinkedIn",
             "lienURLReseauSocial" : "https://www.linkedin.com/",
-            "LogoReseauSocial" : "img/logoLinkedIn"
+            "LogoReseauSocial" : "https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/img/logoLinkedIn.png"
         },
         {
             "nomReseauSocial" : "Instagram",
             "lienURLReseauSocial" : "https://www.instagram.com/?hl=fr",
-            "LogoReseauSocial" : "img/logoInstagram"
+            "LogoReseauSocial" : "https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/img/logoInstagram.png"
         }
     ],
     "nombreAutreContact" : 0,
@@ -24,3 +24,4 @@
         "adressePostal" : ""
     }
 }
+
