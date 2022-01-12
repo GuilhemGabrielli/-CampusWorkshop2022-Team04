@@ -42,3 +42,14 @@ function addReseauxSociaux(reseauSocial, divNousTrouver) {
         divNousTrouver.append(aLien)
     }
 }
+
+
+function presentAutreContact() {
+    const nosContacts = document.getElementById('nos-contacts')
+
+    if (contact['nombreAutreContact'] != 0) {
+        titrePartie = document.createElement('h3')
+        titrePartie.innerText = "Nos contacts"
+        nosContacts.prepend(titrePartie)
+    }
+}
