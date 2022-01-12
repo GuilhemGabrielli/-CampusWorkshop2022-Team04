@@ -1,8 +1,9 @@
 {
+    "nombreRéseauSociaux" : 2,
     "reseauSociaux" : [
         {
             "nomReseauSocial" : "Facebook",
-            "lienURLReseauSocial" : "",
+            "lienURLReseauSocial" : "http://assets.stickpng.com/thumbs/58e91965eb97430e819064f5.png",
             "LogoReseauSocial" : ""
         },
         {
@@ -12,12 +13,14 @@
         },
         {
             "nomReseauSocial" : "Instagram",
-            "lienURLReseauSocial" : "",
+            "lienURLReseauSocial" : "https://www.lespetitsbilingues.com/wp-content/uploads/2021/02/logo-rond-insta-300x300.png",
             "LogoReseauSocial" : ""
         }
     ],
+    "nombreAutreContact" : 0,
     "autreContact" : {
         "numeroTelephone" : "",
-        "adresseMail" : ""
+        "adresseMail" : "",
+        "adressePostal" : ""
     }
 }

@@ -12,3 +12,5 @@ requestContact.onload = function() {
     contact = requestContact.response;
     console.log(contact)
 }
+
+
