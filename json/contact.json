@@ -1,6 +1,6 @@
 {
-    "nombreReseauSociaux" : 2,
-    "reseauSociaux" : [
+    "nombreReseauxSociaux" : 2,
+    "reseauxSociaux" : [
         {
             "nomReseauSocial" : "Facebook",
             "lienURLReseauSocial" : "",
