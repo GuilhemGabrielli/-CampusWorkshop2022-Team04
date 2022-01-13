@@ -1,4 +1,4 @@
-document.getElementById('page-actuel').children[0].href = ""
+document.getElementById('page-actuel').children[0].removeAttribute('href')
 
 
 var requestContactURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/json/contact.json';
