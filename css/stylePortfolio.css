@@ -1,0 +1,66 @@
+/* Mise en page général du body Portfolio */
+
+#main {
+	text-align : center;
+}
+.document {
+	background-color : #d7d7d745;
+	border-radius : 15px;
+	display:inline-block;
+	margin-top:5%;
+	margin :2%;
+	padding : 1%;
+}
+
+.divTitreLogo {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1%;
+}
+
+.logoClient {
+	max-width: 35%;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	border-radius:20px;
+	width:90%;
+	height:auto;
+	margin:0;
+}
+.document > h2 {
+	text-align: center;
+}
+.document > .row > p {
+	text-align:justify;
+	padding-left: 2%;
+}
+ 
+/* Mise en page pour les moyens écran  */
+@media screen and (min-width: 768px) {
+	.document {
+		max-width:40%;
+	}
+	img {
+		width: 90%;
+	}
+}
+
+/* Mise en page sur grand écran */
+@media screen and (min-width: 1440px) {
+	img {
+		width: 50%;
+	}
+	.row {
+		flex-wrap: nowrap;
+	}
+	.logoClient {
+		max-width: 25%;
+	}
+}

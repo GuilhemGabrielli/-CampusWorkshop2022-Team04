@@ -1,0 +1,47 @@
+{
+    "header":{
+        "btnnosServices":{
+            "fr":"Nos services",
+            "en":"Our Services",
+            "es":"Nuestros servicios"
+        },
+
+        "btnApropos":{
+            "fr":"À Propos",
+            "en":"About",
+            "es":"A proposito"
+        },
+
+        "btnPortfolio":{
+            "fr":"Notre portfolio",
+            "en":"Our portfolio",
+            "es":"Nuestro portafolio"
+        },
+        
+        "btnBlog":{
+            "fr":"Blog",
+            "en":"Blog",
+            "es":"Blog"
+        },
+
+        "btnContact":{
+            "fr": "Nous contacter",
+            "en": "Contact us",
+            "es": "Contáctenos"
+        }
+    },
+
+    "footer":{
+        "btnMentionLegales":{
+            "fr":"Mentions Légales",
+            "en":"Legal Notice",
+            "es":"Notas legales"
+        },
+
+        "btnCGU":{
+            "fr":"Condition General d'utilisation",
+            "en":"General conditions of use",
+            "es":"Condiciones generales de uso"
+        }
+    }
+}

@@ -1,0 +1,173 @@
+/* Mise en page du body index */
+
+#main {
+    padding: 5px;
+}
+
+/* Mise en page du paragraphes "Qui sommes nous" */
+#Qui_sommes_nous {
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+#titreQsn{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+#texteQsn{
+    font-size: large;
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: justify;
+     
+}
+
+#logo_full{
+    width: 30%;
+    flex-shrink: 1;
+}
+
+/* Mise en page du paragraphe "A propos de nous */
+#A_propos_de_nous{
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+#titre_Apn{
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+
+#texteApn{
+    margin-left: 2%;
+    font-size: large;
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: justify;
+     
+}
+
+#img_Apn{
+    width: 30%;
+    flex-shrink: 1;
+}
+
+/* Mise en page du paragraphes des "partenaires" */
+#Nospartenaires{
+    overflow: hidden;
+    flex-direction: row;
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+#Nos_partenaires{
+    flex-direction: column;
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+#nbPartenaires{
+    margin-top: 30%;
+    margin-left: 50%;
+    width: 100%;
+}
+
+#texteP{
+    padding-top: 10%;
+    padding-left: 40%;
+    font-size: large;
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: justify;
+}
+
+#imgNosPartenaires{
+    padding-top: 2%;
+    display:  flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    height: 20%;
+    flex-shrink: 1;
+
+}
+
+#imgPartenaires{
+    width: 60%;
+    height: 60%;
+    padding-left: 60%;
+}
+
+
+/* Mise en page de la newsletter */
+#newsletter{
+    padding-top: 5%;
+    font-size: x-large;
+    padding-bottom: 12%;
+    text-align: center;
+}
+
+.btn{
+    font-size: x-large;
+    margin-top:2%;
+}
+
+/* Mise en page du bandeau défilant */
+.logo_partenaires li{
+    display: inline-grid;
+
+}
+
+.logo_partenaires img{
+    width: 250px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.logo_partenaires p{
+padding-left: 70px;
+    width: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+
+.logo_partenaires {
+    width: 100%;
+}
+/* mise en page sur petit écran et moyen écran */
+@media screen and (max-width : 700px ) {
+    img {
+        width: auto;
+        height: auto;
+    }
+    
+    #Qui_sommes_nous{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    #A_propos_de_nous{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    #Nospartenaires{
+        align-items: start;
+        text-align: left;
+        flex-direction: column;
+    }
+    #imgPartenaires{
+        align-items: center;
+        padding-left: 90px;
+    }
+
+}

@@ -1,86 +1,86 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Nous Contacter </title>
-		<link rel="stylesheet" href="../style.css"/>
+		<meta name="description" content="Page web permettant de contacter Digital Consultant">
+		<title>Nous Contacter</title>
+		<link rel="icon" type="image/png" href="../img/logo.png"/> <!--Je lie le logo pour le mettre a coter du titre dans le nav-->
+		<link rel="stylesheet" href="../css/Header-Footer.css">
+		<link rel="stylesheet" href="../css/styleContact.css"/>
 	</head>
 	<body>
-		<header class="color1">
-			<section id="navigation" class=" text-center">
-				<article class="">
-					<a href="../index.html" class="boutton"><img class="logo" src="../img/logo.png" alt="logo Digital Consultant"/></a>
-				</article>
-				<article class=" ">
-					<a href="Services.html" class="boutton">Nos Services</a>
-				</article>
-				<article class=" ">
-					<a href="Propos.html" class="boutton">À propos</a>
-				</article>
-				<article class=" ">
-					<a href="Partenaires.html" class="boutton">Nos patenaires</a>
-				</article>
-				<article class=" ">
-					<a href="blog.html" class="boutton">Blog</a>
-				</article>
-				<article class=" ">
-					<a id="page-actuel" href="contact.html" class="boutton">Nous contacter</a>
-				</article>
-			</section>
-		</header>
-		<main id="Général">
-			<div id="container">
-				<div class="titre">
-					<h1> Nous contacter </h1>
-				</div>
-
-				<div id="formulaire" class="flexbox">
-					<form>
-						<input class="Nom" name="Nom" placeholder="Nom">
-					</form>
-				    <form>
-						<input class="Prenom" name="Prenom" placeholder="Prenom">
-				    </form>
-				    <form>
-						<input class="Adresse" name="adresse mail" placeholder="adresse mail">
-					</form>
-			    	<form>
-						<input class="texte" name="Texte" placeholder="Entrer votre texte">
-			    	</form>
-        			<form>
-						<button class="fichiers">inserer fichiers</button>
-						<button class="envoyer boutton">envoyer</button>
-				    </form>
-                </div>
-				
-				<div class="margin" id="nos-contacts">
-				</div>
-				
-				<div id="NousTrouver" class="margin">
-				</div>
+	<!-- On a relié le css et le html principalement par des class a la manière de bootstrap (on etais partit la dessus de base) -->
+		<!-- Barre de navigation ↓ -->
+		<div id="header" class="color1">
+			<div class="section text-center" id="navigation">
+				<a href="../index.html" class=""><img class="logo" src="../img/logo.png" alt="logo Digital Consultant"/></a>
+				<a href="services.html" class="bouton"></a>
+				<a href="propos.html" class="bouton"></a>
+				<a href="portfolio.html" class="bouton"></a>
+				<a href="blog.html" class="bouton"></a>	
+				<a href="contact.html" id="page-actuel" class="bouton"></a>
+				<div id="langue">
+					<!-- Multilingue  ↓ -->
+          			<button id="BtnFr"><img class="Fr"src="../img/drpFrance.jpg" alt=""></button>
+          			<button id="BtnAng" ><img class="Ang" src="../img/drpAng.png" alt=""></button>
+          			<button id="BtnEsp"><img class="Esp" src="../img/drpEsp.jpg" alt=""></button>
+      			</div>
 			</div>
-		</main>
-		<footer class="color1 text-center">
-            <section id="FooterLeft" class="color1  align-middle ">
-                <article id="MentionLegal" class=" align-middle">
-                    <a href="../documentsLegaux.html"><h5>Mention Legal</h5></a>
-                </article>
-            </section>
-            <section id="FooterMidle" class=" align-middle">
-                <a href="#Général"><img src="../img/logo.png" alt="logo Digital Consultant" class="logo"/></a>
-                <br><p>&copy; Copryright 2021</p>
-            </section>
-            <section id="FooterRight" class="  align-middle">
-                <article id="ConditionGeneral">
-                    <a href="../documentsLegaux.html"><h5>Condition général d'utilisation</h5></a>
-                </article>
-            </section>
-        </footer>
+		</div>
 
+		<!-- Fin de la barre de navigation ↑ -->
+		<div class="main">
+		<!-- L'id #Général sert d'ancre pour le bouton logo en bas de la page -->
+			<div class="titre">
+				<h1 id="titreContacter"> Nous contacter </h1>
+			</div>
+			<!-- Formulaire grace auquel on vas recupéré les informations des visiteurs/cliant du site et recevoir les messages -->
+			<div id="formulaire" class="flexbox">
+				<form>
+                    <input class="Nom" name="Nom" placeholder="Nom *">
+                </form>
+                <form>
+                    <input class="Prenom" name="Prenom" placeholder="Prenom *">
+                </form>
+                <form>
+                    <input class="Adresse" name="adresse mail" placeholder="adresse mail *">
+                </form>
+                <form>
+                    <textarea name="Texte" id="texte" placeholder="Entrer votre texte * "  cols="45" rows="5"></textarea>
+                </form>
+				<p class="important">les champs ou il y a une asterix (*) sont obligatoire</p>
+                <form>
+                    <button class="fichiers">inserer fichiers</button>
+					<!-- on espère trouver comment importer un fichier depuis l'ordinateur dans le site -->
+                    <button class="envoyer bouton">envoyer</button>
+					<!-- Ce bouton validera le formulaire et envera toutes les informations sur un fichier (pour le moment on ne sais pas comment faire) -->
+                </form>
+            </div>
+			<!-- fin du formulaire -->
+				
+            <div class="margin" id="nos-contacts">
+            </div>
+				
+			<!-- Ici on affiche les potentiels réseaux sociaux de la société -->
+            <div id="NousTrouver" class="margin">
+			</div>
+		</div>
+		<!-- Pour le footer on a opter pour des boutons, un qui vous ramène en haut de la page (ancre #Général) et deux autres pour Les mentions legal et pour les CGU -->
+		<div id="footer" class="color1">
+			<!-- Mention legal -->
+			<a href="documentsLegaux.html" id="MentionLegal" class="bouton"></a>
+			<!-- bouton qui vous ramène en haut de la page (ancre #Général) -->
+			<a id="Ancre" href="#header"><img src="../img/logo.png" alt="logo Digital Consultant" class="logo"/></a>
+			<!-- CGU -->
+			<a href="documentsLegaux.html" id="CGU" class="bouton"></a>
+			<br>
+			<!-- Le br est pour mettre le copyright en bas de la page  -->
+			<p id="copyR">&copy; Copyright 2022</p>
+        </div>
+		<!-- Insertion des code JS ↓ -->
+		<script src="../js/HF.js"></script>
 		<script src="../js/contact.js"></script>
 	</body>
 </html>
-		
-
