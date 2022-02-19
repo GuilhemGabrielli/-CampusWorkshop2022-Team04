@@ -2,7 +2,7 @@
 var documentsLegaux = []
 
 // Partie exécuté au lancement de la page permettant de récupérer les données JSON stockées sur GitHub et de les convertir en JS
-var requestDocumentsLegauxURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/documentsLegaux.json';
+var requestDocumentsLegauxURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/Digital-Consultant/main/json/documentsLegaux.json';
 
 var requestDocumentsLegaux = new XMLHttpRequest();
 
