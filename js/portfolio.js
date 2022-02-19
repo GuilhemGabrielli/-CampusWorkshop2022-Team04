@@ -6,7 +6,7 @@ var langueActif = "fr"
 document.getElementById('page-actuel').removeAttribute('href')
 
 // Partie exécuté au lancement de la page permettant de récupérer les données JSON stockées sur GitHub et de les convertir en JS
-var requestPortfolioURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/portfolio.json';
+var requestPortfolioURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/Digital-Consultant/main/json/portfolio.json';
 
 var requestPortfolio = new XMLHttpRequest();
 
