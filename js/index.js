@@ -3,7 +3,7 @@ var index = []
 var langueActif = "fr"
 
 // Partie exécuté au lancement de la page permettant de récupérer les données JSON stockées sur GitHub et de les convertir en JS
-var requestIndexURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/index.json';
+var requestIndexURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/Digital-Consultant/main/json/index.json';
 
 var requestIndex = new XMLHttpRequest();
 
